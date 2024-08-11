@@ -12,9 +12,6 @@ This repository contains the implementation of a series of exercises for a Netwo
    4. [Exercise 4: VLAN with OpenFlow](#exercise-4-vlan-with-openflow)
 3. [Setup and Installation](#setup-and-installation)
 4. [Running the Exercises](#running-the-exercises)
-5. [Examples and Outputs](#examples-and-outputs)
-6. [References](#references)
-7. [License](#license)
 
 ## Introduction
 
@@ -106,13 +103,16 @@ This project involves the use of the Ryu framework to develop network functional
 ### Exercise 4
 
 1. **Create the topology:**
-   ```bash
-   chmod 777 mininet-router-vlan.py
-   sudo ./mininet-router-vlan.py
-OR
-   ```bash
-   chmod 777 mininet-router-vlan-extended.py
-   sudo ./mininet-router-vlan-extended.py
+
+Option 1: **Standard VLAN Topology**
+      ```bash
+      chmod 777 mininet-router-vlan.py
+      sudo ./mininet-router-vlan.py
+      
+Option 2: **Extended VLAN Topology**
+      ```bash
+      chmod 777 mininet-router-vlan-extended.py
+      sudo ./mininet-router-vlan-extended.py
 
 2. **Run ryu controller:**
   ```bash
