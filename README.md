@@ -66,5 +66,5 @@ This project involves the use of the Ryu framework to develop network functional
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Garyfgeor/SDN-Project-with-Mininet-and-OpenFlow.git
+   git clone https://github.com/vasilisanagno/SDN-Project-with-Mininet-and-OpenFlow.git
    cd SDN-Project-with-Mininet-and-OpenFlow
