@@ -104,18 +104,18 @@ This project involves the use of the Ryu framework to develop network functional
 
 1. **Create the topology:**
 
-Option 1: **Standard VLAN Topology**
-   ```bash
+   Option 1: **Standard VLAN Topology**
+      ```bash
       chmod 777 mininet-router-vlan.py
       sudo ./mininet-router-vlan.py
-   ```
+      ```
       
-Option 2: **Extended VLAN Topology**
-   ```bash
+   Option 2: **Extended VLAN Topology**
+      ```bash
       chmod 777 mininet-router-vlan-extended.py
       sudo ./mininet-router-vlan-extended.py
-   ```
+      ```
 
 2. **Run ryu controller:**
-  ```bash
+   ```bash
    sudo ./vlan.py
