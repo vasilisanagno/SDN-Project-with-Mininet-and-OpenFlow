@@ -1,4 +1,4 @@
-# SDN-Project-with-Mininet-and-OpenFlow
+# SDN Project with Mininet and OpenFlow
 
 This repository contains the implementation of a series of exercises for a Networking course project. The project explores various networking concepts using Mininet and Ryu Controller, focusing on topics such as ARP spoofing, static routing, and VLAN configuration using OpenFlow.
 
